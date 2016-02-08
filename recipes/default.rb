@@ -8,7 +8,7 @@
 # Install packages necessary for extracting stuff
 include_recipe "ark"
 
-packer_url = 'https://dl.bintray.com/mitchellh/packer/packer_0.8.6_linux_amd64.zip'
+packer_url = 'https://releases.hashicorp.com/packer/0.8.6/packer_0.8.6_darwin_amd64.zip'
 packer_checksum = '2f1ca794e51de831ace30792ab0886aca516bf6b407f6027e816ba7ca79703b5'
 
 ark 'packer' do
