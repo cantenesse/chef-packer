@@ -9,7 +9,7 @@
 include_recipe "ark"
 
 packer_url = 'https://releases.hashicorp.com/packer/0.8.6/packer_0.8.6_darwin_amd64.zip'
-packer_checksum = '2f1ca794e51de831ace30792ab0886aca516bf6b407f6027e816ba7ca79703b5'
+packer_checksum = '91b5e5d4524a7a2f09a07aad1c8e26e1200b47191a42c1b2facac4a27fd674d0'
 
 ark 'packer' do
     url packer_url 
